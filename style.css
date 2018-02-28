@@ -1,0 +1,95 @@
+body{
+	height:100%;
+	width:100%;
+	background:#263238;
+	color:white;
+	margin:0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+}
+.container{
+	height:100%;
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+}
+.header{
+	display:flex;
+	justify-content:center;
+	font-size:32px;
+}
+.content{
+
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.container input[type=text]{
+	width:200px;
+	height:30px;
+	background-color:#515B60;
+	border-style:none;
+	padding:10px;
+	margin-top:5px;
+}
+.container input[type=text]:focus{
+	background-color:#4B5559;
+	outline:none;
+}
+.container input[type=submit]{
+	width:100px;
+	height:20px;
+}
+.adresTable th{
+	padding:10px;
+}
+.adresTable td{
+	transition: background-color 0.5s ease-in-out;
+	padding:10px;
+	color:#93999b;
+}
+.adresTable td:hover{
+	background-color:green;
+}
+.headTab{
+	font-size:32px;
+}
+hr{
+	width:800;
+	border: 0;
+	height: 2px;
+	background-image: linear-gradient(to right, rgba(147, 153, 155, 0), rgba(147, 153, 155, 0.75), rgba(0, 0, 0, 0));
+}
+.open{
+	color:green !important;
+}
+.open:hover{
+	background:initial !important;
+}
+.close{
+	color:red !important;
+}
+.close:hover{
+	background:initial !important;
+}
+.backToHome{
+	display:flex;
+	justify-content:center;
+	flex-direction: column;
+	align-items: center;
+	font-size:40px;
+}
+.backToHome > a{
+	color:red;
+	text-decoration: none;
+}
+.backToHome > a:visited{
+	text-decoration: none;
+}
+.backToHome > h3{
+	text-align:center;
+}
+.daneError{
+	text-align:center;
+	padding:30px;
+}
